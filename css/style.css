@@ -12,25 +12,45 @@
   } 
 
 .heder-top{
-  max-width: 1140px;
+  max-width: 1600px;
   }
 .heder-top{
   background-color:#222222;
   }
 .heder-ls{
-  border-style: 5px;
-  border-color: aliceblue;
+  display: flex;
+  align-items: center;
   }
 
 .heder-search{
   background-image: url(../img/search.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-image:url(../img/search.svg)
+  
+  width: 26px;
+  height: 26px;
+
   }
   
 .heder-menu{
+  display: flex;
   list-style: none;
+  margin-left: 859px;
+  }
+  .heder-menu-window{
+    background-image: url(../img/menu.svg);
+    width: 32px;
+  height: 23px;
+  }
+  .heder-authorizations{
+    background-image: url(../img/awtoriz.svg);
+    width: 29px;
+  height: 29px;
+  }
+  .heder-basket{
+    background-image: url(../img/korzina.svg);
+    width: 32px;
+  height: 29px;
   }
 
 
@@ -38,12 +58,21 @@
 .heder-content{
   background-color: #F1E4E6;
   height: 764px;
+  display: flex;
   }
  .heder-foto_preview{
+  width: 800px;
+  height: 100%;
   background-image: url('../img/preview1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center
+ }
+ .heder-brand{
+  max-width: 405px;
+  height: 93px;
+  margin-left: 60px;
+  padding-top: 290px;
  }
  
  /* .heder-brand-element{
