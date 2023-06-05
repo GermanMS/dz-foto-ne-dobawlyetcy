@@ -17,9 +17,19 @@
 .heder-top{
   background-color:#222222;
   }
+  .qwe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .heder-ls{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 111px;
+  height: 38px;
+  align-items: center;
+  
   }
 
 .heder-search{
@@ -36,6 +46,10 @@
   display: flex;
   list-style: none;
   margin-left: 859px;
+  width: 169px;
+  height: 37px;
+  justify-content: space-between;
+  align-items: center;
   }
   .heder-menu-window{
     background-image: url(../img/menu.svg);
