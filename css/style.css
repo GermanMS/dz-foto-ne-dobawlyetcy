@@ -239,5 +239,12 @@
   border: 1px solid #FF6A6A;
  }
 
+ @media (max-width: 1024) {
+  .center{
+    max-width: 768px;
+    outline: 2px solid red;
+  }
+  
+ }
 
  
