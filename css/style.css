@@ -18,9 +18,11 @@
   background-color:#222222;
   }
   .qwe{
+    height: 74px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
   }
 .heder-ls{
   display: flex;
@@ -29,6 +31,7 @@
   width: 111px;
   height: 38px;
   align-items: center;
+  margin-left: 231px;
   
   }
 
@@ -45,11 +48,12 @@
 .heder-menu{
   display: flex;
   list-style: none;
-  margin-left: 859px;
+  /* margin-left: 859px; */
   width: 169px;
   height: 37px;
   justify-content: space-between;
   align-items: center;
+  margin-right: 230px;
   }
   .heder-menu-window{
     background-image: url(../img/menu.svg);
@@ -75,7 +79,7 @@
   display: flex;
   }
  .heder-foto_preview{
-  width: 800px;
+  width: 764px;
   height: 100%;
   background-image: url('../img/preview1.png');
   background-repeat: no-repeat;
@@ -239,12 +243,62 @@
   border: 1px solid #FF6A6A;
  }
 
- @media (max-width: 1024) {
+ @media (max-width: 1024px) {
   .center{
     max-width: 768px;
     outline: 2px solid red;
+  }.qwe{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+
+   }
+   .heder-menu {   
+     margin-left: 422px;
+    }
+    
+    .heder-menu{
+      margin-right: 32px;
+    }
+    .heder-ls{
+
+      margin-left: 32px;
+      
+      }
+      .heder-content{
+        height: 367px;
+      }
+      .heder-foto_preview{
+        width: 368px;
+       }
+      .heder-brand {
+        max-width: 311px;
+        height: 92px;
+        margin-left: 39px;
+        padding-top: 138px;
+      }
+      /*  */
+      .classification-of-goods {
+        width: 231px;
+        height: 167px;
+        justify-content: space-around;
+        margin: auto 16px;
+      }
+      classification-of-goods-block{
+        width: 231px;
+        height: 167px;
+      
+       }
+       .classification-of-goods-block{
+        width: 231px;
+        height: 167px;
+        
+       }
+       .classification-block-gender-accesories{
+        margin: 19px 16px;
+       }
   }
   
- }
+
 
  
