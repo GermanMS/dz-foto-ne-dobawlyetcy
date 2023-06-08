@@ -123,6 +123,8 @@
   align-content: center;
   justify-content: center;
   overflow: auto;
+  background-color: rgba(33, 22, 22, 0.7);
+  background-blend-mode: darken;
  }
  body > div.offer.center > ul > li:nth-child(2)
  {
@@ -160,6 +162,8 @@
   align-content: center;
   justify-content: center;
   overflow: auto;
+  background-color: rgba(33, 22, 22, 0.7);
+  background-blend-mode: darken;
  }
  /*               products                  dddddddddddddddddddddddddddd */
 
@@ -178,7 +182,6 @@
   display: flex;
   max-width: 1146px;
   flex-wrap: wrap;
-  gap: 30px;
   justify-content: space-between;
 }
 .product-card-fon2{
@@ -246,7 +249,7 @@
  @media (max-width: 1024px) {
   .center{
     max-width: 768px;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
   }.qwe{
     display: flex;
       align-items: center;
@@ -277,17 +280,15 @@
         margin-left: 39px;
         padding-top: 138px;
       }
-      /*  */
+      .offer{
+        padding-bottom: 109px;
+      }
       .classification-of-goods {
-        width: 231px;
-        height: 167px;
         justify-content: space-around;
-        margin: auto 16px;
       }
       classification-of-goods-block{
         width: 231px;
         height: 167px;
-      
        }
        .classification-of-goods-block{
         width: 231px;
@@ -295,8 +296,28 @@
         
        }
        .classification-block-gender-accesories{
-        margin: 19px 16px;
+        margin: 19px 16px 0 16px;
        }
+       
+      .products-week {
+          margin-top: 3px;
+        }
+        .products-week {
+          margin-bottom: 73px;
+      }
+      .product-cards {
+        padding: 0 16px;
+      }
+      .product-card {
+        padding-bottom: 17px;
+      }
+      .product-cards-price {
+        padding-bottom: 20px;
+    }
+    .product-button {
+      height: 47px;
+      margin: 15px auto 71px auto;
+    }
   }
   
 
